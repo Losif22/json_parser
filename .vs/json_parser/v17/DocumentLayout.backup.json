@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaptu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\projects\\json_parser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F8516D-A038-42AC-88EC-E7E99EB353ED}|json_parser\\json_parser.vcxproj|C:\\Users\\kaptu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\projects\\json_parser\\json_parser\\json_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D6F8516D-A038-42AC-88EC-E7E99EB353ED}|json_parser\\json_parser.vcxproj|solutionrelative:json_parser\\json_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "json_parser.cpp",
+              "DocumentMoniker": "C:\\Users\\kaptu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\projects\\json_parser\\json_parser\\json_parser.cpp",
+              "RelativeDocumentMoniker": "json_parser\\json_parser.cpp",
+              "ToolTip": "C:\\Users\\kaptu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\projects\\json_parser\\json_parser\\json_parser.cpp",
+              "RelativeToolTip": "json_parser\\json_parser.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T07:18:23.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
