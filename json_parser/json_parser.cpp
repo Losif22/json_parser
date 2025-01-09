@@ -12,7 +12,7 @@ struct JsonObject {
     int age;
     std::vector<std::string> skills;
 };
-
+ 
 class JsonParser {
 public:
     JsonObject parse(const std::string& jsonString) {
