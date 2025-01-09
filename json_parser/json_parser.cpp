@@ -57,7 +57,7 @@ public:
 int main() {
     std::ifstream inputFile("data.json");
     if (!inputFile) {
-        std::cout << "Error open file!\n";
+        std::cout << "Error open file!\n"; 
         return -1;
     }
     std::ostringstream buffer;
