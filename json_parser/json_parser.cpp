@@ -18,7 +18,7 @@ public:
     JsonObject parse(const std::string& jsonString) {
         JsonObject jsonObject;
         size_t pos = 0;
-
+        
         // Extract "name"
         pos = jsonString.find("\"name\":");
         if (pos != std::string::npos) {
@@ -49,7 +49,7 @@ public:
                 skillStart = skillEnd + 1;
             }
         }
-
+         
         return jsonObject;
     }
 };
@@ -63,16 +63,16 @@ int main() {
     std::ostringstream buffer;
     buffer << inputFile.rdbuf();
     std::string jsonString = buffer.str();
-
-    JsonParser parser;
+     
+    JsonParser parser; 
     JsonObject result = parser.parse(jsonString);
 
     std::cout << "Name: " << result.name << std::endl;
     std::cout << "Age: " << result.age << std::endl;
     std::cout << "Skills: ";
     for (const auto& skill : result.skills) {
-        std::cout << skill << " ";
-    }
+        std::cout << skill << " "; 
+    } 
     std::cout << std::endl;
     system("pause>nul");
     return 0;
