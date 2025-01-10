@@ -6,7 +6,7 @@
 #include <sstream>
 #include <algorithm>
 
-// A structure to hold the parsed JSON data
+//  A structure to hold the parsed JSON data
 struct JsonObject {
     std::string name;
     int age;
@@ -57,7 +57,7 @@ public:
 int main() {
     std::ifstream inputFile("data.json");
     if (!inputFile) {
-        std::cout << "Error open file!\n"; 
+        std::cout << "Error open file! \n";
         return -1;
     }
     std::ostringstream buffer;
