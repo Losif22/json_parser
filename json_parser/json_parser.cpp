@@ -6,7 +6,7 @@
 #include <sstream>
 #include <algorithm>
 
-//  A structure to hold the parsed JSON data
+// A structure to hold the parsed JSON data
 struct JsonObject {
     std::string name;
     int age;
