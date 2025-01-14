@@ -26,7 +26,7 @@ public:
             size_t end = jsonString.find('"', start);
             jsonObject.name = jsonString.substr(start, end - start);
         }
-         
+        
         // Extract "age"
         pos = jsonString.find("\"age\":");
         if (pos != std::string::npos) {
