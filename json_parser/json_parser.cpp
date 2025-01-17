@@ -17,7 +17,7 @@ class JsonParser {
 public:
     JsonObject parse(const std::string& jsonString) {
         JsonObject jsonObject;
-        size_t pos = 0;
+        size_t pos = 0;  
         
         // Extract "name"
         pos = jsonString.find("\"name\":");
